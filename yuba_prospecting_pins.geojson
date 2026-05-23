@@ -1,0 +1,484 @@
+{
+  "type": "FeatureCollection",
+  "name": "North/Middle Yuba prospecting pins (verified)",
+  "description": "Pins for Blue Lead conglomerate exposures (Task 1) and unworked North/Middle Yuba reaches (Task 2). All coordinates re-verified against USGS GNIS/MRDS/NWIS, USGS 3DEP elevation, ESRI/OSM imagery and named-feature cross-references. Coordinates are WGS84/NAD83 decimal degrees. See accompanying markdown table for source citations, confidence ratings, and access notes.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.02780, 39.54500]},
+      "properties": {
+        "id": "T1-01",
+        "task": 1,
+        "site": "Brandy City pit NW headwall",
+        "elevation_ft": 3650,
+        "confidence": "high",
+        "what_visible": "Bright bare-earth pit wall on the N-NW margin of central pit pond; 50-60 ft vertical relief in 1m DEM",
+        "access": "Hwy 49 at Camptonville -> Old Mountain House / Indian Springs / Brandy City Rd (~10 mi, dirt last mi). Walk rim trail clockwise from pond.",
+        "quad": "Strawberry Valley 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.02290, 39.53000]},
+      "properties": {
+        "id": "T1-02",
+        "task": 1,
+        "site": "Cherokee Creek incision through La Porte channel projection",
+        "elevation_ft": 3211,
+        "confidence": "high-creek / medium-channel-axis",
+        "what_visible": "Forested creek thalweg, no road; topographic low on OSM Cherokee Creek polyline",
+        "access": "From Brandy City pond, hike S/SE ~0.4 mi (~400 ft drop) to creek bed.",
+        "quad": "Strawberry Valley 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84550, 39.69320]},
+      "properties": {
+        "id": "T1-03",
+        "task": 1,
+        "site": "Poker Flat townsite / Canyon Creek incision",
+        "elevation_ft": 4751,
+        "confidence": "high",
+        "what_visible": "Mining tailings, old foundations, OHV trail; Canyon Creek bed at ~4,750-4,780 ft",
+        "access": "4WD only via Howland Flat Rd / Poker Flat Rd from La Porte. USFS campground at townsite.",
+        "quad": "Mount Fillmore 7.5'",
+        "county": "Sierra (NOT Plumas - common misattribution)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.89150, 39.71950]},
+      "properties": {
+        "id": "T1-04",
+        "task": 1,
+        "site": "Howland Flat NW switchback on Poker Flat Rd",
+        "elevation_ft": 5460,
+        "confidence": "medium",
+        "what_visible": "Road switchback through upper gravels; townsite hydraulic scars visible ~500m SSW",
+        "access": "Poker Flat Rd from La Porte (Plumas Co.) via Port Wine Ridge.",
+        "quad": "La Porte 7.5'",
+        "county": "Sierra",
+        "note": "User has visited Howland Flat and confirmed sloughed walls - listed for completeness only; not a strong candidate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.93220, 39.68080]},
+      "properties": {
+        "id": "T1-05",
+        "task": 1,
+        "site": "Gardner's Point Mine / Grass Flat hydraulic pit",
+        "elevation_ft": 4820,
+        "confidence": "high",
+        "what_visible": "Textbook hydraulic-mine signature on satellite: barren red/orange pit walls, ponded water in pit floor, exposed Tertiary gravel benches",
+        "access": "Port Wine Ridge Rd; private property with caretaker (Brush Creek Mining & Dev, last production 1989) - access requires permission.",
+        "quad": "La Porte 7.5'",
+        "county": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.92200, 39.64700]},
+      "properties": {
+        "id": "T1-06",
+        "task": 1,
+        "site": "Eureka Diggings hydraulic pit (broad pit area)",
+        "elevation_ft": 5050,
+        "confidence": "medium",
+        "what_visible": "Documented hydraulic-mine pit polygon (Yeend 1974/USGS); pit complex extends >1 km",
+        "access": "From Downieville take Saddleback Rd NW ~5 mi, then spur road. Tahoe NF.",
+        "quad": "Goodyears Bar 7.5'",
+        "note": "No contemporary trip report verifying current wall condition; ranking is based on Lindgren reserve estimate (30M yd^3) implying large standing walls."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84633, 39.51848]},
+      "properties": {
+        "id": "T1-07",
+        "task": 1,
+        "site": "Ruby Mine drift portal (active operation)",
+        "elevation_ft": 4698,
+        "confidence": "high",
+        "what_visible": "Active mine infrastructure, headframe, road (per rubymine.com)",
+        "access": "Sec 15 NW T19N R10E, north of Alleghany. PRIVATE - requires owner permission (contact via Underground Gold Miners Museum, Alleghany).",
+        "quad": "Alleghany 7.5'",
+        "source": "USGS MRDS #10286771 (100m accuracy)",
+        "note": "Highest-probability site for fresh in-mine blue lead exposure in the region."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84200, 39.51200]},
+      "properties": {
+        "id": "T1-08",
+        "task": 1,
+        "site": "Bald Mountain Extension drift mine portal",
+        "elevation_ft": 4500,
+        "confidence": "medium",
+        "what_visible": "Adit only - limited surface signature; near Ruby Mine on same Tertiary channel",
+        "access": "Sec 15/21/22 T19N R10E, 1.5 mi NNE of Forest City.",
+        "quad": "Alleghany 7.5'",
+        "note": "MRDS positional accuracy ~5km; treat as approximate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84300, 39.51000]},
+      "properties": {
+        "id": "T1-09",
+        "task": 1,
+        "site": "N Fork Oregon Creek crossing Bald Mountain Tertiary channel axis",
+        "elevation_ft": 4200,
+        "confidence": "low",
+        "what_visible": "Creek incision into bedrock; thalweg exposure possible after winter flow",
+        "access": "Approach via Forest City; faint user trails down N Fork Oregon Cr drainage.",
+        "quad": "Alleghany 7.5'",
+        "note": "Channel-axis crossing location is interpolated, not field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.85080, 39.41920]},
+      "properties": {
+        "id": "T1-10",
+        "task": 1,
+        "site": "Moores Flat hydraulic pit center",
+        "elevation_ft": 4144,
+        "confidence": "high",
+        "what_visible": "Large hydraulic pit visible on satellite; documented Yeend 1974 fig 9 lower-gravel exposure on NW edge",
+        "access": "Bowman Lake Rd / Graniteville area; Nevada Co.",
+        "quad": "Alleghany 7.5' (Nevada Co. portion)",
+        "county": "Nevada (drains to Middle Yuba via Bloody Run)",
+        "source": "USGS MRDS #10310651"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.85400, 39.42200]},
+      "properties": {
+        "id": "T1-10b",
+        "task": 1,
+        "site": "Moores Flat pit NW edge (Yeend 1974 fig 9 lower gravel locality)",
+        "elevation_ft": 4100,
+        "confidence": "medium",
+        "what_visible": "Photographed by Yeend 1968; 50+ years of weathering since; check for fresh face on undercut wall",
+        "access": "Walk pit rim counterclockwise from main road access.",
+        "quad": "Alleghany 7.5' (Nevada Co.)"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.99650, 39.52030]},
+      "properties": {
+        "id": "T2-A-entry",
+        "task": 2,
+        "site": "Shenanigan Flat / Canyon Creek Trailhead (Site A entry)",
+        "elevation_ft": 2300,
+        "confidence": "medium",
+        "what_visible": "Hwy 49 bridge over N Yuba immediately upstream of Indian Valley Outpost; gated gravel road behind",
+        "access": "Hwy 49 ~6 mi N of Camptonville; locked gate on NW side of bridge, walk gravel rd ~1 mi to Shenanigan Flat.",
+        "quad": "Goodyears Bar 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.02800, 39.51900]},
+      "properties": {
+        "id": "T2-A-mid",
+        "task": 2,
+        "site": "Cherokee Creek mouth on North Yuba (Site A midpoint)",
+        "elevation_ft": 2050,
+        "confidence": "medium",
+        "what_visible": "Footbridge over Cherokee Cr where Canyon Creek Trail meets N Yuba",
+        "access": "From Shenanigan Flat trailhead, walk Canyon Creek Trail ~2 mi to footbridge.",
+        "quad": "Goodyears Bar 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.91050, 39.54070]},
+      "properties": {
+        "id": "T2-B-entry",
+        "task": 2,
+        "site": "Ramshorn Campground (Site B entry)",
+        "elevation_ft": 2643,
+        "confidence": "high",
+        "what_visible": "USFS campground, parking, river access at Hwy 49; Halls Ranch trailhead adjacent",
+        "access": "Hwy 49 ~5.5 mi S of Downieville.",
+        "quad": "Goodyears Bar 7.5'",
+        "source": "Recreation.gov #234543"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.92800, 39.53800]},
+      "properties": {
+        "id": "T2-B-mid",
+        "task": 2,
+        "site": "N Yuba below Halls Ranch climb (Site B midpoint)",
+        "elevation_ft": 2620,
+        "confidence": "medium",
+        "what_visible": "River channel below the slope where Halls Ranch Trail begins climbing",
+        "access": "Walk river bed/bank ~1 mi W from Ramshorn at low water.",
+        "quad": "Goodyears Bar 7.5'",
+        "note": "Trail does NOT cross river - it begins river-side at Ramshorn and climbs ~1,400 ft up to ridge."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.82770, 39.55870]},
+      "properties": {
+        "id": "T2-C-entry",
+        "task": 2,
+        "site": "Jersey Bridge, Downieville (Site C entry)",
+        "elevation_ft": 2920,
+        "confidence": "high",
+        "what_visible": "1938 Hwy 49 bridge over Downie River at confluence with N Yuba",
+        "access": "Downieville town center; park on Main St.",
+        "quad": "Downieville 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84700, 39.55400]},
+      "properties": {
+        "id": "T2-C-mid",
+        "task": 2,
+        "site": "N Yuba ~1 mi WSW of Downieville (Site C midpoint)",
+        "elevation_ft": 2820,
+        "confidence": "medium",
+        "what_visible": "River in confined bedrock cut; Hwy 49 on N bank",
+        "access": "Hwy 49 pullouts and bushwhack to river.",
+        "quad": "Downieville 7.5'",
+        "note": "'Mountain House' as a current near-river feature here could not be confirmed - historic Mountain House sites are on Henness Pass Rd ridge above."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.95273, 39.52406]},
+      "properties": {
+        "id": "T2-D-entry",
+        "task": 2,
+        "site": "Convict Flat Picnic Area (Site D entry)",
+        "elevation_ft": 2493,
+        "confidence": "high",
+        "what_visible": "USFS picnic area, parking, Hwy 49 pullout, river access",
+        "access": "Hwy 49 between Indian Valley Campground and Ramshorn.",
+        "quad": "Goodyears Bar 7.5'",
+        "source": "USGS GNIS via TopoZone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.95400, 39.52300]},
+      "properties": {
+        "id": "T2-D-mid",
+        "task": 2,
+        "site": "N Yuba bedrock chute at Convict Flat (Site D midpoint)",
+        "elevation_ft": 2440,
+        "confidence": "high",
+        "what_visible": "Bedrock-confined river chute adjacent to picnic area",
+        "access": "Drop directly from picnic area.",
+        "quad": "Goodyears Bar 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.65600, 39.52710]},
+      "properties": {
+        "id": "T2-E-entry",
+        "task": 2,
+        "site": "Gates of the Antipodes locale (Site E entry - GNIS feature)",
+        "elevation_ft": 5357,
+        "confidence": "medium",
+        "what_visible": "Henness Pass Rd corridor; derelict log cabin at trail head per Sierra Club; trail drops steeply to gorge",
+        "access": "Henness Pass Rd 4WD spur from Jackson Meadows area.",
+        "quad": "Sierra City 7.5'",
+        "source": "USGS GNIS / TopoQuest"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.67500, 39.50400]},
+      "properties": {
+        "id": "T2-E-mid",
+        "task": 2,
+        "site": "Middle Yuba gorge floor below Gates (Site E midpoint)",
+        "elevation_ft": 4500,
+        "confidence": "low",
+        "what_visible": "Class V/VI bedrock slot; no road access",
+        "access": "Steep 1-1.5 mi down-climb from rim - serious commitment.",
+        "quad": "Sierra City 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.58350, 39.52180]},
+      "properties": {
+        "id": "T2-F-entry",
+        "task": 2,
+        "site": "Below Milton Dam tailrace (Site F entry)",
+        "elevation_ft": 5650,
+        "confidence": "high",
+        "what_visible": "Small Milton impoundment, dam structure, Milton-Bowman tunnel intake",
+        "access": "FS roads via Jackson Meadows / Henness Pass Rd; FERC P-2266 project area.",
+        "quad": "Haypress Valley 7.5'",
+        "source": "USGS NWIS gauge 11408550",
+        "note": "Reach is dewatered to ~3 cfs since 1928 (Milton diverts to Bowman)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.62000, 39.51500]},
+      "properties": {
+        "id": "T2-F-mid",
+        "task": 2,
+        "site": "Middle Yuba ~3 river mi below Milton (Site F midpoint)",
+        "elevation_ft": 4800,
+        "confidence": "low",
+        "what_visible": "Steep granitic/metavolcanic canyon, low summer flow exposing bedrock crevices",
+        "access": "Spur roads off Henness Pass Rd; 0.5-1 mi bushwhack descents.",
+        "quad": "Sierra City 7.5'",
+        "note": "Reach overlaps upstream end of Gates of the Antipodes (Site E) once geometry is corrected."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.96000, 39.43000]},
+      "properties": {
+        "id": "T2-G-entry",
+        "task": 2,
+        "site": "Pliocene Ridge end-of-road descent to Middle Yuba (Site G entry - approximate)",
+        "elevation_ft": 4200,
+        "confidence": "low",
+        "what_visible": "Spur road off Pliocene Ridge near Pike/Alleghany road system",
+        "access": "Multiple candidate spurs; reconnoiter via Tahoe NF motor-vehicle-use map.",
+        "quad": "Pike 7.5'",
+        "note": "Original 'Lafayette Ridge / Mtn House / Pliocene Ridge end-of-road' conflated three different features. Re-research recommended for the specific drop-in point that actually reaches the Middle Yuba below Kanaka Cr."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.94500, 39.41700]},
+      "properties": {
+        "id": "T2-G-mid",
+        "task": 2,
+        "site": "Middle Yuba below Kanaka Creek confluence (Site G midpoint)",
+        "elevation_ft": 2000,
+        "confidence": "high",
+        "what_visible": "River channel immediately below Kanaka Cr mouth in steep forested inner canyon",
+        "access": "1,500+ ft bushwhack descent from Pliocene Ridge; serious off-trail effort.",
+        "quad": "Pike 7.5'",
+        "source": "USGS gauge 11408850; USGS GNIS Kanaka Creek confluence"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.99700, 39.41200]},
+      "properties": {
+        "id": "T2-H-entry",
+        "task": 2,
+        "site": "Our House Diversion Dam (Site H entry)",
+        "elevation_ft": 1958,
+        "confidence": "high",
+        "what_visible": "75-ft concrete diversion dam, Lohman Ridge Tunnel intake, FERC P-2246 infrastructure",
+        "access": "Our House Dam Rd off Ridge Rd from Hwy 49.",
+        "quad": "Camptonville 7.5'",
+        "source": "CDEC station ORH",
+        "note": "Only ~1-2 mi of free-flowing river below the dam before Bullards Bar backwater begins."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.08190, 39.39690]},
+      "properties": {
+        "id": "T2-I-entry",
+        "task": 2,
+        "site": "Oregon Creek Covered Bridge / Freemans Crossing (Site I entry)",
+        "elevation_ft": 1450,
+        "confidence": "high",
+        "what_visible": "1860 Thomas Freeman covered bridge (NRHP #75000499), Tahoe NF Day Use Area, Middle Yuba confluence",
+        "access": "Hwy 49 at the Freemans Crossing concrete arch bridge.",
+        "quad": "Camptonville 7.5'",
+        "source": "Wikipedia NRHP; USGS gauges 11409000 and 11410000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.07000, 39.42000]},
+      "properties": {
+        "id": "T2-I-mid",
+        "task": 2,
+        "site": "Oregon Creek inner gorge ~1.5 mi up from covered bridge (Site I midpoint)",
+        "elevation_ft": 2400,
+        "confidence": "medium",
+        "what_visible": "Steep forested Oregon Creek canyon; reach below Log Cabin Dam (39.4393,-121.0591) is dewatered most of year",
+        "access": "Walk creek bed up from covered bridge; steep canyon sides.",
+        "quad": "Camptonville 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.78500, 39.59500]},
+      "properties": {
+        "id": "T2-J-entry",
+        "task": 2,
+        "site": "Third Divide Trail footbridge over Lavezzola Creek (Site J entry - estimated)",
+        "elevation_ft": 3500,
+        "confidence": "low",
+        "what_visible": "Footbridge in inner gorge under conifer canopy; small turnout above",
+        "access": "Lavezzola Rd from Downieville ~3.5 mi (0.7 mi past Second Divide road bridge).",
+        "quad": "Downieville 7.5'",
+        "note": "Approximate - footbridge precise location not field-verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.78700, 39.59400]},
+      "properties": {
+        "id": "T2-J-mid",
+        "task": 2,
+        "site": "Lavezzola Creek inner gorge between bridges (Site J midpoint - estimated)",
+        "elevation_ft": 3400,
+        "confidence": "low",
+        "what_visible": "Granite gorge under canopy; wading required at low water",
+        "access": "Bushwhack downstream from footbridge.",
+        "quad": "Downieville 7.5'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.78900, 39.59300]},
+      "properties": {
+        "id": "T2-K-entry",
+        "task": 2,
+        "site": "Second Divide trailhead on Lavezzola Rd (Site K entry - estimated)",
+        "elevation_ft": 3313,
+        "confidence": "low",
+        "what_visible": "Small dirt pullout, trail sign, limited parking",
+        "access": "Lavezzola Rd from Downieville ~2.7-3 mi.",
+        "quad": "Downieville 7.5'",
+        "note": "Trailhead is on Lavezzola Rd, but trail climbs to ridge between Lavezzola and Pauley drainages then drops to Pauley Cr."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.77000, 39.58500]},
+      "properties": {
+        "id": "T2-K-mid",
+        "task": 2,
+        "site": "Pauley Creek above Federal Falls (Site K midpoint - estimated)",
+        "elevation_ft": 3300,
+        "confidence": "low",
+        "what_visible": "Cascade-and-plunge-pool granite gorge; 15-25 ft falls (Federal, Pauley) downstream of pin",
+        "access": "Second Divide trail ~1 mi to Y, right fork drops to creek with minor rock climbing.",
+        "quad": "Downieville 7.5'",
+        "note": "Original submission had K.midpoint on wrong creek (Lavezzola); this pin is estimated from cacreeks.com Pauley Cr run description."
+      }
+    }
+  ]
+}
