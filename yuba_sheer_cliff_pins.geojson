@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sierra Nevada Tertiary auriferous gravel cliff exposures (round 2)",
+  "description": "Sites where Eocene-Miocene cemented quartz-cobble auriferous channel gravel is currently exposed as sheer, vertical, hammer-able cliff face (not slough-buried). Built from parallel research + precision georeferencing pass. Coordinates WGS84 decimal degrees. See markdown table for confidence, access, and source citations.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.92597, 39.36881]},
+      "properties": {
+        "id": "MAL-S1",
+        "tier": 1,
+        "site": "Malakoff TLS Site 1 - SW alcove (USGS-measured active erosion)",
+        "elevation_ft": 3048,
+        "uncertainty_m": 40,
+        "cliff_height_ft": "100-165",
+        "what_visible": "N-facing alcove 120m wide x 30-50m high; 887 sq m face; three stacked sedimentary units (upper gravel + clay + lower gravel)",
+        "access": "From Diggins Pond trailhead, walk Diggins Loop Trail clockwise ~0.7 mi. Flat pit floor.",
+        "confidence": "high",
+        "source": "USGS OFR 2019-1124 Howle et al; ScienceBase 5d1cf22de4b0941bde64ce0c; pit boundary shapefile 59ea84c9e4b0026a55fd012d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.92775, 39.37060]},
+      "properties": {
+        "id": "MAL-S2",
+        "tier": 1,
+        "site": "Malakoff TLS Site 2 - W amphitheater (HIGHEST measured erosion rate)",
+        "elevation_ft": 3319,
+        "uncertainty_m": 40,
+        "cliff_height_ft": "130",
+        "what_visible": "E-facing amphitheater ~100m wide x 40m vertical; cream/tan exposed sediment; erosion rate 0.14 m3/m2/yr (most actively-stripped of the four sites)",
+        "access": "From Diggins Pond, follow Diggins Loop W along pit floor; Site 2 is on right (N) as trail enters W embayment.",
+        "confidence": "high",
+        "source": "USGS OFR 2019-1124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.90632, 39.37617]},
+      "properties": {
+        "id": "MAL-S4W",
+        "tier": 1,
+        "site": "Malakoff TLS Site 4 Western (NE three-cliff complex)",
+        "elevation_ft": 3601,
+        "uncertainty_m": 80,
+        "cliff_height_ft": "100-200",
+        "what_visible": "Westernmost of 3 cliff faces in 500m NE-corner complex; S/SW-facing exposure",
+        "access": "From Slaughterhouse Trailhead / Chute Hill Campground, Slaughterhouse Trail ~0.4 mi to pit floor.",
+        "confidence": "high",
+        "source": "USGS OFR 2019-1124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.90512, 39.37563]},
+      "properties": {
+        "id": "MAL-S4C",
+        "tier": 1,
+        "site": "Malakoff TLS Site 4 Central (NE three-cliff complex)",
+        "elevation_ft": 3601,
+        "uncertainty_m": 80,
+        "cliff_height_ft": "100-200",
+        "what_visible": "Central of 3 cliff faces in NE 500m complex; S/SW-facing",
+        "access": "Slaughterhouse Trail to pit floor; cross ~150 m E of Site 4W.",
+        "confidence": "high",
+        "source": "USGS OFR 2019-1124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.90361, 39.37449]},
+      "properties": {
+        "id": "MAL-S4E",
+        "tier": 1,
+        "site": "Malakoff TLS Site 4 Eastern (NE three-cliff complex)",
+        "elevation_ft": 3601,
+        "uncertainty_m": 80,
+        "cliff_height_ft": "100-200",
+        "what_visible": "Easternmost of 3 cliff faces; S/SW-facing",
+        "access": "Slaughterhouse Trail to pit floor; ~300 m E of Site 4W.",
+        "confidence": "high",
+        "source": "USGS OFR 2019-1124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.90679, 39.37192]},
+      "properties": {
+        "id": "MAL-S5",
+        "tier": 1,
+        "site": "Malakoff TLS Site 5 - SE twin alcoves (OFR cover photo)",
+        "elevation_ft": 3242,
+        "uncertainty_m": 40,
+        "cliff_height_ft": "130",
+        "what_visible": "N-facing twin-alcove pair, 100m wide x 40m high; central ridge separating Eastern Area 1/2 and Western Area 1/2; Optech scanner deployed atop W and E sides 105m apart (means walk-up access top AND bottom)",
+        "access": "From Diggins Loop E end, short cross-pit walk. Flat.",
+        "confidence": "high",
+        "source": "USGS OFR 2019-1124 - this is the report's COVER PHOTO viewpoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84840, 39.17270]},
+      "properties": {
+        "id": "I80-GR",
+        "tier": 2,
+        "site": "Gold Run I-80 Rest Area + Stewart Mine traverse (30-sec walk-up)",
+        "elevation_ft": 2950,
+        "cliff_height_ft": "30-80 ft cuts, 200+ ft pit walls behind rest area",
+        "what_visible": "Cross-bedded sands and gravels of ancestral S Fk Yuba; orange/tan/white kaolinitic faces on freeway shoulder cut; larger Stewart pit walls behind the rest area pet area",
+        "access": "I-80 westbound rest area near MM 143, ~0.5 mi W of Gold Run exit 144. 30-second walk from pavement.",
+        "confidence": "very high",
+        "source": "Sierra College field-trip transect (Stop 4); Konigsmark Geologic Trips: Sierra Nevada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.86230, 39.16450]},
+      "properties": {
+        "id": "I80-MG",
+        "tier": 2,
+        "site": "I-80 Magra Rd to Monte Vista cuts (same Eocene channel)",
+        "elevation_ft": 2900,
+        "cliff_height_ft": "40-100",
+        "what_visible": "Rusty-red to orange weathered cut faces on N side of freeway; thick layers of red Eocene river gravel",
+        "access": "I-80 exit 142 (Magra Rd); safest pullover is Magra Rd frontage under the overcrossing.",
+        "confidence": "high",
+        "source": "Sierra College Dutch Flat/Gold Run district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.85800, 39.16930]},
+      "properties": {
+        "id": "GR-BLUFFS",
+        "tier": 2,
+        "site": "Gold Run 'The Bluffs' / Paleobotanist Trail (BLM Secret World)",
+        "elevation_ft": 2950,
+        "cliff_height_ft": "varies; well-exposed upper-gravel cliffs",
+        "what_visible": "Surviving mining amphitheater west of I-80; upper gravels visible as walls; petrified-wood bearing horizons in Paleobotanist Trail bench",
+        "access": "I-80 Magra Rd exit, S on Magra to Garrett Rd, then to BLM gate; walk Paleobotanist Trail ~0.5 mi. Verify BLM gate status before going - pedestrian only past gate.",
+        "confidence": "medium-high",
+        "source": "Russell Towle northforktrails blog; mindat Gold Run District; gambolinman 2012 field report"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.75339, 39.31422]},
+      "properties": {
+        "id": "HWY20-OMEGA",
+        "tier": 2,
+        "site": "Alpha-Omega Diggings Overlook (Hwy 20)",
+        "elevation_ft": 4400,
+        "cliff_height_ft": "100-175 ft pit walls visible across canyon",
+        "what_visible": "Classic Malakoff-style white/tan cliff scars in canyon below the pullout; California Historical Landmark #629 with interpretive plaque and observation deck; pullout itself on bedrock/Mehrten cap - walk short interpretive trail down to touch gravel",
+        "access": "Hwy 20 ~17 mi E of Nevada City; signed paved pullout, truck-sized.",
+        "confidence": "very high",
+        "source": "USFS Tahoe NF rec page; CHL #629; mindat Alpha-Omega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.74800, 39.33300]},
+      "properties": {
+        "id": "HWY20-OMEGA-PIT",
+        "tier": 2,
+        "site": "Omega Diggings pit (foot access, off Omega Rd from Hwy 20)",
+        "elevation_ft": 4400,
+        "cliff_height_ft": "175 ft channel-gravel column",
+        "what_visible": "150 ft lower auriferous gravel + 6 ft clay + 20 ft upper gravel = 175 ft total section (Lindgren); two bare amphitheaters cut into ridge",
+        "access": "Omega Rd from Hwy 20 - Tahoe NF, not posted.",
+        "confidence": "high",
+        "source": "Wikipedia Omega Hydraulic Diggings; mindat; Lindgren PP 73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.28254, 39.21244]},
+      "properties": {
+        "id": "BLUEPOINT",
+        "tier": 2,
+        "site": "Blue Point Mine / Black Swan Preserve cliff escarpment",
+        "elevation_ft": 900,
+        "cliff_height_ft": "140-200",
+        "what_visible": "Hydraulic cliff escarpment wrapping E around Black Swan Pond; 200-ft cliff carved into eastern flank of placer and basalt ridgeline; peregrine falcons and cliff swallows nest here (biology proves bare vertical rock)",
+        "access": "Trailhead off Mooney Flat Rd, ~1/4 mi N of Hwy 20; ~10-15 min off I-80 at Smartsville. 2-mi loop, Bear Yuba Land Trust, public.",
+        "confidence": "high",
+        "source": "Bear Yuba Land Trust; Excelsior Project Blue Point page; Yuba Treadhead 2019 trip report"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.80000, 39.50000]},
+      "properties": {
+        "id": "MTVERNON",
+        "tier": 3,
+        "site": "Mt. Vernon Mine (North Bay Resources, active Tertiary-gravel mine)",
+        "elevation_ft": 5443,
+        "approximate_coord": true,
+        "what_visible": "Underground mine with modern portal, tunnel, ventilation; MSHA full-scale production approval Oct 2024; ~4,200 t Tertiary gravel ore stockpiled June 2025 for Bishop Gold Mill shipment. Material: large cobble conglomerates cemented with ferruginous sand matrix - the classic Great Blue Lead facies, capped by Mehrten andesitic mudflow.",
+        "access": "Mountain House Rd / FS road network W of Downieville. PRIVATE active mine - permission from North Bay Resources required (310-584-7278). Directly adjacent and upstream from Ruby Mine on same channel.",
+        "confidence": "high (status) / medium (precise portal coord)",
+        "source": "North Bay Resources press releases July/Aug 2024; northbay-resources.com/mount-vernon; USGS GNIS feature 263893",
+        "note": "Precise portal coords not published by operator - this is the GNIS feature centroid; confirm on the ground."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.84633, 39.51848]},
+      "properties": {
+        "id": "RUBY",
+        "tier": 3,
+        "site": "Ruby Mine drift portal (active operation - same Great Blue Lead)",
+        "elevation_ft": 4698,
+        "what_visible": "Active mine infrastructure; fresh channel face advanced regularly inside",
+        "access": "Sec 15 NW T19N R10E, N of Alleghany. PRIVATE - contact Underground Gold Miners Museum (530-287-3330).",
+        "confidence": "high",
+        "source": "USGS MRDS #10286771 (100m accuracy); rubymine.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.54607, 39.64028]},
+      "properties": {
+        "id": "CHEROKEE",
+        "tier": 4,
+        "site": "Cherokee / Spring Valley hydraulic mine (Butte Co.)",
+        "elevation_ft": 1200,
+        "cliff_height_ft": "historic 500 ft highwall",
+        "what_visible": "Light-colored amphitheaters on N flank of Sugar Loaf / N edge of Table Mountain visible on ESRI; 'looks very similar to Malakoff Diggins' (insuremekevin); was largest hydraulic mine in the world",
+        "access": "Cherokee Rd off Hwy 70 N of Oroville. PRIVATE land (Spring Valley / Diamond Match successor) - no legal walk-in; rim view from Cherokee Rd or Sugar Loaf side.",
+        "confidence": "medium",
+        "source": "MRDS #10310601; Western Mining History; insuremekevin field writeup",
+        "note": "No 2010+ in-pit photo proof; physics same as Malakoff (135 yr since closure)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.02780, 39.54500]},
+      "properties": {
+        "id": "BRANDY-NW",
+        "tier": 4,
+        "site": "Brandy City pit NW headwall (per Round 1 verification)",
+        "elevation_ft": 3650,
+        "cliff_height_ft": "50-60 ft DEM-confirmed, possibly 300 ft per 2013 eyewitness blog",
+        "what_visible": "Bright bare-earth pit wall on N-NW margin of central pit pond; 2013 trip report describes 'about a 300 foot drop' at end of FS road",
+        "access": "Hwy 49 -> Brandy City Rd ~10 mi (dirt last mi). Walk pond rim clockwise.",
+        "confidence": "medium",
+        "source": "Round 1 ESRI Vivid 2025 verification; Lightcap Farm blog 2013; Lindgren PP 73 p.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.81700, 39.20150]},
+      "properties": {
+        "id": "I80-CASA",
+        "tier": 2,
+        "site": "Casa Loma Rd frontage cuts (I-80 Alta exit)",
+        "elevation_ft": 4032,
+        "cliff_height_ft": "10-40",
+        "what_visible": "White Oligocene-Miocene Valley Springs rhyolitic tuff overlying Tertiary auriferous gravels and large Mio-Pliocene Mehrten andesitic boulders. Gravel visible only at base of bigger cuts - upper face is white tuff.",
+        "access": "Casa Loma Rd paralleling eastbound I-80 east of Alta exit 146.",
+        "confidence": "medium",
+        "source": "Sierra College Stop 4-5 route notes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-120.97100, 39.36870]},
+      "properties": {
+        "id": "SJR-RD",
+        "tier": 2,
+        "site": "San Juan Ridge Rd cuts (Tyler Foote Crossing -> North Bloomfield)",
+        "elevation_ft": 3300,
+        "cliff_height_ft": "10-40 ridge-top cuts; 300+ ft Malakoff pit walls beyond",
+        "what_visible": "Intermittent ridge-top road cuts in Tertiary sedimentary/volcanic sequence; 600 ft total gravel section under ridge per Lindgren",
+        "access": "Hwy 49 N of Nevada City to Tyler Foote Crossing Rd, E toward North Bloomfield/Malakoff.",
+        "confidence": "medium-high",
+        "source": "Lindgren PP 73; Sierra College Sierra geology drive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-121.04640, 39.45050]},
+      "properties": {
+        "id": "HWY49-CMP",
+        "tier": 2,
+        "site": "Hwy 49 cuts climbing out of N Yuba canyon to Camptonville",
+        "elevation_ft": 2400,
+        "cliff_height_ft": "20-60",
+        "what_visible": "Rusty-red weathered Eocene surface and overlying Tertiary sedimentary/volcanic rocks; bedrock is dominant, gravel is subordinate",
+        "access": "Hwy 49 MM ~19-20 in Yuba/Sierra Co. Pullouts limited and narrow.",
+        "confidence": "medium",
+        "source": "Sierra College Hwy 49 corridor notes"
+      }
+    }
+  ]
+}
